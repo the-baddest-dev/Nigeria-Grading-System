@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secondary School Grading | Nigeria Grading System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="secondary">
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">N</span>Nigeria Grading System</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="secondary.html" aria-current="page">Secondary School</a>
+        <a href="poly.html">Polytechnic</a>
+        <a href="university.html">University</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <h1>Secondary School Grading</h1>
+      <p>Check your score against the Nigerian secondary school grading scale.</p>
+    </section>
+    <div class="grading-main">
+      <div class="grading-card">
+        <div class="grading-intro">
+          <h2>Check your grade</h2>
+          <p>Enter your score to see your grade.</p>
+        </div>
+        <input type="text" placeholder="Enter your score" id="input" maxlength="3">
+        <button onclick="checkSecondary()">Check</button>
+        <div id="displayArea"></div>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <p>Nigeria Grading System</p>
+      <p>© 2026 Hamdalat. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
