@@ -83,6 +83,7 @@ function checkUniversity(){
 
   if (userInput == '' || userInput == ' ' || userInput == '  ' || userInput == '   '  || userInput == '    '){
     display.innerHTML = `<p>Input should not be empty!</p>`
+    return
   } else if (isNaN(userInput)){
     display.innerHTML = `<p>Do not input words!</p>`
     return
